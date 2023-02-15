@@ -1,6 +1,6 @@
 # CRUD_equipo
 
-Fernanda insertat
+Fernanda insertar 
 Vanesa actualizar
 Ricardo eliminar
 Miguel estroctura del html y css
