@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.div_titulo{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_titulo h1{
+    font-weight: 300;
+}
+
+.contenedor {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+}
+
+/*Formulario*/
+.contenedor .div_formulario {
+    width: 30%;
+    height: 250px;
+    margin: 15px 15px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*border-radius: 10px;*/
+    box-shadow: 10px 10px black;
+}
+
+/*letras Formulario*/
+.contenedor .div_formulario h2 {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 1cm;
+    color: white;
+}
+
+.contenedor .div_formulario form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*Text box y Boton*/
+.contenedor .div_formulario form input,
+.contenedor .div_formulario form button {
+    width: 60%;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+/*Apartado de la lista*/
+.contenedor .div_listado {
+    width: 55%;
+    height: calc(100% -50px);
+    margin: 15px 15px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*border-radius: 10px;*/
+    box-shadow: 10px 10px black;
+}
+
+.contenedor .div_listado h2 {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 1cm;
+    color: white;
+}
+
+.contenedor .div_listado .div_empleados {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+    padding: 0 30px;
+}
+
+/*Letras del Listado*/
+.contenedor .div_listado .div_empleados p {
+    margin: 10px 0;
+    font-size: 1cm;
+    color: white;
+}
+
+/*Lo que se genera dentro de Listado*/
+hr {
+    width: 100%;
+    height: 1px;
+}
+
+.btn {
+    padding: 5px 10px;
+    border: none;
+    margin: 0 5px;
+    color: white;
+}
+
+.btn_editar{
+    background-color: yellow;
+}
+
+.btn_eliminar {
+    background-color: red;
+}
