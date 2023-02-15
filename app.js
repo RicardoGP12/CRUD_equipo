@@ -108,6 +108,7 @@ function editarEmpleado(){
     editando=false;
 }
 
+
 function eliminarEmpleado(id){
     listaEmpleados=listaEmpleados.filter(empleado => empleado.id !== id);
 
