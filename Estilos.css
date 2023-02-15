@@ -117,9 +117,9 @@ hr {
 }
 
 .btn_editar{
-    background-color: yellow;
+    background: green;
 }
 
 .btn_eliminar {
-    background-color: red;
+    background: red;
 }
