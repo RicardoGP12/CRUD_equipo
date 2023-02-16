@@ -4,6 +4,6 @@ Fernanda insertar
 
 Vanesa actualizar  
 
-Ricardo eliminar 
+Ricardo eliminar y revisar 
 
 Miguel estructura html y css
