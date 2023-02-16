@@ -32,7 +32,7 @@ body{
     width: 30%;
     height: 250px;
     margin: 15px 15px;
-    background-color: gray;
+    background-color: rgb(160, 159, 159);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,6 +63,7 @@ body{
     width: 60%;
     padding: 10px 10px;
     margin: 10px 10px;
+    
 }
 
 /*Apartado de la lista*/
@@ -70,7 +71,7 @@ body{
     width: 55%;
     height: calc(100% -50px);
     margin: 15px 15px;
-    background-color: gray;
+    background-color: rgb(160, 159, 159);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -83,7 +84,7 @@ body{
     margin-top: 10px;
     font-weight: 300;
     font-size: 1cm;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .contenedor .div_listado .div_empleados {
@@ -94,19 +95,20 @@ body{
     justify-content: center;
     margin: 15px;
     padding: 0 30px;
+    
 }
 
 /*Letras del Listado*/
 .contenedor .div_listado .div_empleados p {
     margin: 10px 0;
     font-size: 0.5cm;
-    color: white;
+    color: rgb(22, 22, 22);
 }
 
 /*Lo que se genera dentro de Listado*/
 hr {
     width: 100%;
-    height: 1px;
+    height: 2px;
 }
 
 .btn {
@@ -114,12 +116,24 @@ hr {
     border: none;
     margin: 0 5px;
     color: white;
+    border-radius: 10px;
+    
 }
 
 .btn_editar{
     background: green;
+    padding: 5px 10px;
+    border: none;
+    margin: 0 5px;
+    color: white;
+    border-radius: 10px;
 }
 
 .btn_eliminar {
     background: red;
+    padding: 5px 10px;
+    border: none;
+    margin: 0 5px;
+    color: white;
+    border-radius: 10px;
 }

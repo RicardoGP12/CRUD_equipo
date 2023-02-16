@@ -6,7 +6,9 @@ const objEmpleado ={
     apellido: ''
 }
 
-let editando = false;
+let editando = false;//esta variable nos damos cuenta si modificamos o eliminamos
+
+//Cenectamos nuestras etiquetas
 const formulario = document.querySelector('#Formulario');
 const nombreImput =document.querySelector('#nombre');
 const apellidoImput = document.querySelector('#apellido');
@@ -16,6 +18,8 @@ formulario.addEventListener('submit', validarformulario);
 
 function validarformulario(e){
     e.preventDefault();
+
+    //Vemos si los campos no estan vacios
     if(nombreImput.value === '' || apellidoImput.value === ''){
         alert('Todos los campos son obligatorios.');
         return;
@@ -62,13 +66,13 @@ function mostrarEmpleados(){
         const editarBotton = document.createElement('button');
         editarBotton.onclick=()=> cargarEmpleado(empleado);
         editarBotton.textContent='Editar';
-        editarBotton.classList.add('btn','btn_editar');
+        editarBotton.classList.add('btn_editar');
         parrafo.append(editarBotton);
 
         const eliminarBotton = document.createElement('button');
         eliminarBotton.onclick=()=> eliminarEmpleado(id);
         eliminarBotton.textContent='Eliminar';
-        eliminarBotton.classList.add('btn','btn_eliminar');
+        eliminarBotton.classList.add('btn_eliminar');
         parrafo.append(eliminarBotton);
 
         const hr=document.createElement('hr');
